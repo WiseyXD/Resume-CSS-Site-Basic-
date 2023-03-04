@@ -1,0 +1,88 @@
+body{
+    
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+
+
+/* navbar */
+
+#navbar
+{
+    padding: 2% 5%;
+}
+
+.btn
+{
+    background-color: #645cff;
+    color: white;
+}
+.btn:hover
+{
+    background-color: #4b47a3;
+
+}
+
+
+/* Main Image */
+
+#main-img
+{
+  padding: 2% 5%;
+}
+.main-image
+{
+    background: url('../assets/main.jpeg') center/cover no-repeat;
+    height: 30vw;
+    color: white;
+    border-radius: 1vw;
+    margin-top: 3rem;
+    
+    
+}
+.main-img-h1
+{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 8.5rem 2.5rem 0;
+}
+
+
+@media screen and  (min-width: 1050px) 
+{
+  .main-img-h1
+  {
+    margin-bottom: 0; 
+  }
+}
+
+
+
+
+
+/* recipe page */
+#recipes-page
+{
+    margin: 3rem 0rem;
+    padding: 2% 5%;
+}
+
+.recipes-list
+{
+  text-align: left;
+  float: left;
+  width: 150px;
+  order: 1;
+
+}
+
+/* footer */
+.footer
+{
+  background-color: black;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  align-items: center;  
+}

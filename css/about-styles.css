@@ -1,0 +1,70 @@
+body
+{
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+/* navbar */
+#navbar
+{
+    padding: 2% 5%;
+}
+
+.btn
+{
+    background-color: #645cff;
+    color: white;
+}
+.btn:hover
+{
+    background-color: #4b47a3;
+
+}
+
+ /* Mainsection */
+
+#mainsection
+{
+    padding: 2% 5%;
+}
+
+
+.item-left
+{
+    text-align: left;
+    margin-top: 130px;
+    line-height: 2;
+}
+.item-left h1
+{
+    font-weight: bold;
+}
+.item-right img
+{
+    width: 30vw;
+    height: 45vw;
+    object-fit: cover;
+}
+
+/* Header */
+.header
+{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.recipe-row
+{
+    padding: 2% 5% 3%;
+}
+
+
+/* Footer */
+.footer
+{
+  background-color: black;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  align-items: center;  
+}
